@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+/* header style */
+.banner-container {
+    background-image: url("./donate-today-main/images/donation12.png"),
+        linear-gradient(rgb(27, 26, 26), rgba(65, 61, 61, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-details {
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 79px;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding: 20px;
+}
+
+.btn-primary {
+
+    padding: 30px;
+    gap: 8px;
+    background: #808080;
+    border-radius: 7px;
+    border: 0px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 24px;
+
+}
+
+/* donate-container section */
+.donate-container {
+    text-align: center;
+    color: #121212;
+    padding: 150px;
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    font-weight: bold;
+    line-height: 70px;
+    font-size: 85px;
+}
+
+/* btn tk section */
+.btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 7px;
+    padding: 30px;
+    font-size: 24px;
+font-weight: 600;
+}
+
+.btn-tk {}
+
+.red {
+    color: red;
+}
+
+.tk {}
